@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="CalKeyboard" customModuleProvider="target">
+            <connections>
+                <outlet property="deleteKeyboardButton" destination="n74-SE-9gu" id="Wk5-J8-PTn"/>
+                <outlet property="kappaButton" destination="dC3-ia-Zf2" id="xmV-r5-bew"/>
+                <outlet property="neutralButton" destination="VGW-ls-zwB" id="CWR-Nl-TEo"/>
+                <outlet property="nextKeyboardButton" destination="gRt-12-JcF" id="CWQ-gG-G2m"/>
+                <outlet property="returnButton" destination="Dnm-8L-KgA" id="nJY-FO-sia"/>
+                <outlet property="sadButton" destination="thF-CS-VWq" id="3I9-5M-Ona"/>
+                <outlet property="smileyButton" destination="Zah-oQ-Vtn" id="pDj-lq-ylU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="center" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRt-12-JcF">
+                    <rect key="frame" x="8" y="162" width="30" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="eu0-xj-Jov"/>
+                        <constraint firstAttribute="height" constant="30" id="rFT-bm-aBM"/>
+                    </constraints>
+                    <state key="normal" title="N"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n74-SE-9gu">
+                    <rect key="frame" x="322" y="8" width="45" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="Fkw-rz-BKp"/>
+                        <constraint firstAttribute="height" constant="30" id="ju0-h4-g4Q"/>
+                    </constraints>
+                    <state key="normal" title="Delete"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dnm-8L-KgA">
+                    <rect key="frame" x="321" y="162" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="Eib-hE-lZs"/>
+                        <constraint firstAttribute="height" constant="30" id="rD0-XJ-stc"/>
+                    </constraints>
+                    <state key="normal" title="Return"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGW-ls-zwB">
+                    <rect key="frame" x="172" y="85" width="30" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="5ov-Gi-KZN"/>
+                        <constraint firstAttribute="width" constant="30" id="aE6-sI-87P"/>
+                    </constraints>
+                    <state key="normal" title=":-|"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zah-oQ-Vtn">
+                    <rect key="frame" x="16" y="85" width="30" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="D70-Ms-006"/>
+                        <constraint firstAttribute="width" constant="30" id="vcG-vQ-X42"/>
+                    </constraints>
+                    <state key="normal" title=":-)"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thF-CS-VWq">
+                    <rect key="frame" x="329" y="85" width="30" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="9a1-5t-ax2"/>
+                        <constraint firstAttribute="width" constant="30" id="PGx-Bf-XV5"/>
+                    </constraints>
+                    <state key="normal" title=":-("/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dC3-ia-Zf2">
+                    <rect key="frame" x="8" y="8" width="25" height="25"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="99Q-xR-dfz"/>
+                        <constraint firstAttribute="width" constant="25" id="wfW-tT-HQ1"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="KappaHD"/>
+                </button>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstItem="dC3-ia-Zf2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="60C-Th-RKS"/>
+                <constraint firstItem="Zah-oQ-Vtn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="99t-FC-ZOF"/>
+                <constraint firstAttribute="trailing" secondItem="thF-CS-VWq" secondAttribute="trailing" constant="16" id="E1f-Ps-uNn"/>
+                <constraint firstAttribute="bottom" secondItem="Dnm-8L-KgA" secondAttribute="bottom" constant="8" id="F2h-1J-Czd"/>
+                <constraint firstAttribute="bottom" secondItem="dC3-ia-Zf2" secondAttribute="bottom" constant="167" id="I7u-te-XoD"/>
+                <constraint firstItem="Zah-oQ-Vtn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="85" id="IJm-Hf-mwM"/>
+                <constraint firstItem="thF-CS-VWq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="85" id="JCa-3z-vIy"/>
+                <constraint firstAttribute="trailing" secondItem="Dnm-8L-KgA" secondAttribute="trailing" constant="8" id="Jkn-kE-RGf"/>
+                <constraint firstItem="gRt-12-JcF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="LUD-YX-JVD"/>
+                <constraint firstItem="VGW-ls-zwB" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MDC-Qq-uhW"/>
+                <constraint firstItem="thF-CS-VWq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ple-F6-JqX"/>
+                <constraint firstAttribute="trailing" secondItem="n74-SE-9gu" secondAttribute="trailing" constant="8" id="dwo-v3-frh"/>
+                <constraint firstItem="n74-SE-9gu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="fTO-Rr-jto"/>
+                <constraint firstAttribute="bottom" secondItem="gRt-12-JcF" secondAttribute="bottom" constant="8" id="tEE-h3-FZa"/>
+                <constraint firstItem="VGW-ls-zwB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tfP-Tv-hQK"/>
+                <constraint firstItem="Zah-oQ-Vtn" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zGK-St-LE8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="605.5" y="542"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="KappaHD" width="28" height="28"/>
+    </resources>
+</document>
